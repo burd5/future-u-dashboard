@@ -1,4 +1,3 @@
-import React from 'react'
 import './sidebar.css'
 import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';

@@ -1,0 +1,76 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.featuredItem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 11px 29px 0px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 5px 11px 29px 0px rgba(0,0,0,0.66);
+    -moz-box-shadow: 5px 11px 29px 0px rgba(0,0,0,0.66);
+}
+
+.featuredTitle{
+    font-size: 22px;
+    color: rgb(57,80,108);
+    font-weight: 600;
+}
+
+.featuredContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredNumber{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.featuredEnrollmentRate{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    color: red;
+}
+
+.featuredSpendingRate{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.featuredMSGRate{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.icon{
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.featuredSubtitle{
+    font-size: 14px;
+    color: grey;
+}
+
+.month{
+    font-size: 48px;
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+    margin-top: 0px;
+}

@@ -1,4 +1,3 @@
-import React from 'react'
 import './navbar.css'
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import SettingsIcon from '@mui/icons-material/Settings';
@@ -8,7 +7,8 @@ function Navbar() {
     <div className="navbar">
         <div className="navbarWrapper">
             <div className="topLeft">
-                <span className="logo">Future U</span>
+                <img className="logo" src="https://www.adworks.org/wp-content/uploads/FutureU_logo_Blue_wGrayOutlineBlueTagline_AJC.jpg" alt="future U logo"></img>
+                <span className="pageTitle">Future U Dashboard</span>
             </div>
             <div className="topRight">
                 <div className="navbarIconContainer">

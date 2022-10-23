@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.logo{
+.pageTitle{
     font-weight: bold;
     font-size: 48px;
     color: rgb(57,80,108);
@@ -54,4 +54,12 @@
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.logo{
+    height: 40px;
+    width: 50px;
+    position: sticky;
+    top: 15px;
+    margin-right: 10px;
 }

@@ -14,13 +14,14 @@
 }
 
 .sidebarTitle{
-    font-size: 18px;
+    font-size: 24px;
     color: #fff;
 }
 
 .sidebarList{
     list-style: none;
     padding: 5px;
+    font-size: 20px;
 }
 
 .sidebarItem{
