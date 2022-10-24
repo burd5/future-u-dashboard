@@ -13,7 +13,6 @@ function Navbar() {
             <div className="topRight">
                 <div className="navbarIconContainer">
                     <NotificationsNoneIcon fontSize="large"/>
-                    <span className="topIconBadge"></span>
                 </div>
                 <div className="navbarIconContainer">
                     <SettingsIcon fontSize="large"/>

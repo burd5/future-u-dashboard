@@ -34,7 +34,7 @@
     margin-bottom: 10px;
 }
 
-.sidebarItem.active, sidebarItem:hover{
+.sidebarItem.active, .sidebarItem:hover{
     background-color: rgb(57,80,108);
 
 }

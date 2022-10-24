@@ -1,11 +1,18 @@
 import './featured.css'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+
+
+
+const percentage = 66;
 
 function Featured() {
   return (
     <div><h1 className="month">PY October 2022</h1>
     <div className="featured">
+    <div className="enrollmentDiv">
         <div className="featuredItem">
             <span className="featuredTitle">Enrollments</span>
                 <div className="featuredContainer">
@@ -18,6 +25,12 @@ function Featured() {
                 </div>
             <span className="featuredSubtitle">Compared to last month</span>
         </div>
+        <div className="progressBar">
+                <h4 class="progressTitle">Total Goal</h4>
+                <CircularProgressbar value={percentage} text={`${percentage}%`} />
+        </div>
+        </div>
+        <div className="spendingDiv">
         <div className="featuredItem">
             <span className="featuredTitle">Spending</span>
                 <div className="featuredContainer">
@@ -29,7 +42,13 @@ function Featured() {
                     </span>
                 </div>
             <span className="featuredSubtitle">Compared to last month</span>
-        </div>
+            </div>
+            <div className="progressBar">
+                <h4 class="progressTitle">Total Goal</h4>
+                <CircularProgressbar value={percentage} text={`${percentage}%`} />
+            </div>
+            </div>
+        <div className="msgDiv">
         <div className="featuredItem">
             <span className="featuredTitle">Measurable Skill Gains</span>
                 <div className="featuredContainer">
@@ -41,6 +60,11 @@ function Featured() {
                     </span>
                 </div>
             <span className="featuredSubtitle">Compared to last month</span>
+        </div>
+        <div className="progressBar">
+                    <h4 class="progressTitle">Total Goal</h4>
+                    <CircularProgressbar value={percentage} text={`${percentage}%`} />
+                    </div>
         </div>
     </div>
     </div>

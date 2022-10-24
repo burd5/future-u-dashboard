@@ -74,6 +74,7 @@ const options = {
           ticks: {
           font: {
             size: 22,
+            weight: 500,
           },
           color: 'rgb(57,80,108)'
         }
@@ -86,6 +87,7 @@ const options = {
           ticks: {
             font: {
               size: 22,
+              weight: 500,
             },
             color: 'rgb(57,80,108)'
           },

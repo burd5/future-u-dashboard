@@ -1,0 +1,18 @@
+.teamMembers{
+    flex: 4;
+    margin: 20px;
+}
+
+.teamTitle{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: rgb(57,80,108);
+}
+
+.userProfile{
+    background-color: rgb(57,80,108);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
