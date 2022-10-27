@@ -1,4 +1,4 @@
-import './featured.css'
+import './wfs.css'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import { CircularProgressbar } from 'react-circular-progressbar';
@@ -10,10 +10,11 @@ const placementPercentage = 21;
 const enrollmentPercentage = 37;
 const spendingPercentage = 20;
 
-function Featured() {
+function Burdette() {
   return (
-    <div><h1 className="month">Young Adult Team - September 2022</h1>
-    <div className="featured">
+    <div className="burdette">
+        <h1>Austin Burdette</h1>
+        <div className="featured">
     <div className="enrollmentDiv">
         <div className="featuredItem">
             <span className="featuredTitle">Enrollments</span>
@@ -73,4 +74,4 @@ function Featured() {
   )
 }
 
-export default Featured
+export default Burdette

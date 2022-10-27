@@ -25,7 +25,7 @@ import {
 const dataEnrollments = {
     labels: ['Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
     datasets: [{
-        data: [21,34,26,42,32],
+        data: [19,63,103],
         backgroundColor: 'rgb(57,80,108)',
         borderColor: '#555',
         color: 'rgb(57,80,108)',
@@ -35,7 +35,7 @@ const dataEnrollments = {
 const dataSpending = {
     labels: ['Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
     datasets: [{
-        data: [183345,135678,123876,195222,112200],
+        data: [76869.28,96811.39,87743.35],
         borderColor: '#555',
         color: 'rgb(57,80,108)',
         fill: true,
@@ -91,7 +91,7 @@ const options = {
             },
             color: 'rgb(57,80,108)'
           },
-          beginAtZero: true,
+          beginAtZero: false,
         },
       },
     tension: 0.4,

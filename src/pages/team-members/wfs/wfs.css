@@ -1,0 +1,21 @@
+.rindy,
+.burdette,
+.fredeen,
+.reifschneider,
+.metz,
+.huelsmann,
+.adams,
+.deherrera{
+    flex: 4;
+}
+
+h1{
+    text-align: center;
+    color: rgb(57,80,108);
+}
+
+.noData{
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+}

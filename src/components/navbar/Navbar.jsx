@@ -1,6 +1,8 @@
 import './navbar.css'
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import SettingsIcon from '@mui/icons-material/Settings';
+import {Link} from "react-router-dom"
+
 
 function Navbar() {
   return (
@@ -8,7 +10,9 @@ function Navbar() {
         <div className="navbarWrapper">
             <div className="topLeft">
                 <img className="logo" src="https://www.adworks.org/wp-content/uploads/FutureU_logo_Blue_wGrayOutlineBlueTagline_AJC.jpg" alt="future U logo"></img>
+                <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
                 <span className="pageTitle">Future U Dashboard</span>
+                </Link>
             </div>
             <div className="topRight">
                 <div className="navbarIconContainer">

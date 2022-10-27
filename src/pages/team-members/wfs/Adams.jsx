@@ -1,22 +1,18 @@
-import './featured.css'
+import './wfs.css'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import JoshChart from '../../../components/charts/JoshChart'
 
 
-
-const placementPercentage = 21;
-const enrollmentPercentage = 37;
-const spendingPercentage = 20;
-
-function Featured() {
+function Adams() {
   return (
-    <div><h1 className="month">Young Adult Team - September 2022</h1>
-    <div className="featured">
+    <div className="adams">
+        <h1>Joshua Adams</h1>
+        <div className="featured">
     <div className="enrollmentDiv">
         <div className="featuredItem">
-            <span className="featuredTitle">Enrollments</span>
+            <span className="featuredTitle">Monthly Enrollments</span>
                 <div className="featuredContainer">
                     <span className="featuredNumber">
                         40
@@ -28,13 +24,13 @@ function Featured() {
             <span className="featuredSubtitle">Compared to last month</span>
         </div>
         <div className="progressBar">
-                <h4 class="progressTitle">Total Goal</h4>
-                <CircularProgressbar value={enrollmentPercentage} text={`${enrollmentPercentage}%`} />
+                    <h4 class="progressTitle">Team Rank</h4>
+                    <img class="medal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8ISxBnHI3Fq25EzvgwudCuf6A7f4ZE-Ozw&usqp=CAU" alt="no medal" />
         </div>
         </div>
         <div className="spendingDiv">
         <div className="featuredItem">
-            <span className="featuredTitle">Spending</span>
+            <span className="featuredTitle">Monthly Spending</span>
                 <div className="featuredContainer">
                     <span className="featuredNumber">
                         $87,743.35
@@ -46,13 +42,13 @@ function Featured() {
             <span className="featuredSubtitle">Compared to last month</span>
             </div>
             <div className="progressBar">
-                <h4 class="progressTitle">Total Goal</h4>
-                <CircularProgressbar value={spendingPercentage} text={`${spendingPercentage}%`} />
+                    <h4 class="progressTitle">Team Rank</h4>
+                    <img class="medal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8ISxBnHI3Fq25EzvgwudCuf6A7f4ZE-Ozw&usqp=CAU" alt="no medal" />
             </div>
             </div>
         <div className="msgDiv">
         <div className="featuredItem">
-            <span className="featuredTitle">Placements</span>
+            <span className="featuredTitle">Monthly Placements</span>
                 <div className="featuredContainer">
                     <span className="featuredNumber">
                         5
@@ -64,13 +60,14 @@ function Featured() {
             <span className="featuredSubtitle">Compared to last month</span>
         </div>
         <div className="progressBar">
-                    <h4 class="progressTitle">Total Goal</h4>
-                    <CircularProgressbar value={placementPercentage} text={`${placementPercentage}%`} />
+                    <h4 class="progressTitle">Team Rank</h4>
+                    <img class="medal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8ISxBnHI3Fq25EzvgwudCuf6A7f4ZE-Ozw&usqp=CAU" alt="no medal" />
                     </div>
         </div>
     </div>
+    <JoshChart/>
     </div>
   )
 }
 
-export default Featured
+export default Adams

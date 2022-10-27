@@ -1,5 +1,4 @@
 import './sidebar.css'
-import {useState} from "react"
 import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
@@ -14,10 +13,6 @@ import {Link} from "react-router-dom"
 
 
 function Sidebar(){
-    const [isActive, setActive] = useState('false');
-    const toggleActive = () => {
-        setActive(!isActive);
-    };
   return (
     <div className="sidebar">
         <div className="sidebarWrapper">
@@ -38,7 +33,9 @@ function Sidebar(){
                         </li>
                         <li className="sidebarItem">
                             <AccountBoxIcon className="sidebarIcon" fontSize="large"/>
+                            <Link to="/personal" style={{ textDecoration: 'none', color: 'white' }}>
                             Personal
+                            </Link>
                         </li>
                     </ul>
 

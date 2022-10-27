@@ -1,0 +1,27 @@
+.personal{
+    flex: 4;
+}
+
+.personalEnrollmentRate{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    color: green;
+}
+
+.personalSpendingRate{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    color: red;
+}
+
+.personalMSGRate{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 20px;
+    color: green;
+}

@@ -1,25 +1,21 @@
-import './featured.css'
+import './wfs.css'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import CharlieChart from '../../../components/charts/CharlieChart'
 
 
-
-const placementPercentage = 21;
-const enrollmentPercentage = 37;
-const spendingPercentage = 20;
-
-function Featured() {
+function Rindy() {
   return (
-    <div><h1 className="month">Young Adult Team - September 2022</h1>
+    <div className="rindy">
+        <h1>Charlie Rindy</h1>
     <div className="featured">
     <div className="enrollmentDiv">
         <div className="featuredItem">
             <span className="featuredTitle">Enrollments</span>
                 <div className="featuredContainer">
                     <span className="featuredNumber">
-                        40
+                        9
                     </span>
                     <span className="featuredEnrollmentRate">
                         -10% <ArrowDownwardIcon className="icon negative"/>
@@ -28,8 +24,8 @@ function Featured() {
             <span className="featuredSubtitle">Compared to last month</span>
         </div>
         <div className="progressBar">
-                <h4 class="progressTitle">Total Goal</h4>
-                <CircularProgressbar value={enrollmentPercentage} text={`${enrollmentPercentage}%`} />
+                <h4 class="progressTitle">Team Rank</h4>
+                    <img class="medal" src="https://i.pinimg.com/originals/86/d9/64/86d9642da31c8ebb28cb0ea5693b08eb.png" alt="first place" />
         </div>
         </div>
         <div className="spendingDiv">
@@ -37,17 +33,18 @@ function Featured() {
             <span className="featuredTitle">Spending</span>
                 <div className="featuredContainer">
                     <span className="featuredNumber">
-                        $87,743.35
+                        $9,366.15
                     </span>
                     <span className="featuredSpendingRate">
-                        -9.37% <ArrowDownwardIcon className="icon"/>
+                        -42.8% <ArrowDownwardIcon className="icon"/>
                     </span>
                 </div>
             <span className="featuredSubtitle">Compared to last month</span>
             </div>
             <div className="progressBar">
-                <h4 class="progressTitle">Total Goal</h4>
-                <CircularProgressbar value={spendingPercentage} text={`${spendingPercentage}%`} />
+                    <h4 class="progressTitle">Team Rank</h4>
+                    <img class="medal" src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Trophy-and-Medals-PNG/Third_Place_Medal_Badge_Clipart_Image.png?m=1555462978" alt="no medal" />
+
             </div>
             </div>
         <div className="msgDiv">
@@ -55,7 +52,7 @@ function Featured() {
             <span className="featuredTitle">Placements</span>
                 <div className="featuredContainer">
                     <span className="featuredNumber">
-                        5
+                        1
                     </span>
                     <span className="featuredMSGRate">
                         -37.5% <ArrowDownwardIcon className="icon negative"/>
@@ -64,13 +61,14 @@ function Featured() {
             <span className="featuredSubtitle">Compared to last month</span>
         </div>
         <div className="progressBar">
-                    <h4 class="progressTitle">Total Goal</h4>
-                    <CircularProgressbar value={placementPercentage} text={`${placementPercentage}%`} />
-                    </div>
+        <h4 class="progressTitle">Team Rank</h4>
+                    <img class="medal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8ISxBnHI3Fq25EzvgwudCuf6A7f4ZE-Ozw&usqp=CAU" alt="no medal" />
+        </div>
         </div>
     </div>
+    <CharlieChart/>
     </div>
   )
 }
 
-export default Featured
+export default Rindy
