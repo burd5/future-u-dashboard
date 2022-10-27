@@ -1,4 +1,6 @@
 import './home.css'
+import React from 'react';
+
 import Featured from '../../components/featuredInfo/Featured'
 import EnrollmentChart from '../../components/charts/EnrollmentChart'
 

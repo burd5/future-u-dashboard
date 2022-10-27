@@ -1,4 +1,6 @@
 import './personal.css'
+import React from 'react';
+
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import PersonalChart from '../components/charts/PersonalChart'

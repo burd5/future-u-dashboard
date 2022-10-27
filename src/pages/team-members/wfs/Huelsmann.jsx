@@ -1,4 +1,6 @@
 import './wfs.css'
+import React from 'react';
+
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import HeatherChart from '../../../components/charts/HeatherChart'

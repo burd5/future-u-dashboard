@@ -1,4 +1,6 @@
 import './sidebar.css'
+import React from 'react';
+
 import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';

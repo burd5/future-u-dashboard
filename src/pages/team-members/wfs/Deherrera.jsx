@@ -1,4 +1,6 @@
 import './wfs.css'
+import React from 'react';
+
 
 function Deherrera() {
   return (

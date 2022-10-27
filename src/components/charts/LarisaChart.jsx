@@ -1,4 +1,6 @@
 import './enrollmentChart.css'
+import React from 'react';
+
 import {
   Chart as ChartJS,
   CategoryScale,

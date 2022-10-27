@@ -1,4 +1,5 @@
 import Navbar from './components/navbar/Navbar'
+import React from 'react';
 import Sidebar from './components/sidebar/Sidebar'
 import Home from './pages/home/Home'
 import TeamMembers from './pages/team-members/TeamMembers'
