@@ -1,6 +1,6 @@
 <h1>Future U Dashboard</h1>
 
-<img src="futureudashboard.gif" alt="gif of webpage" href="https://future-u-dashboard.vercel.app/">
+<img src="future-u-dashboard.gif" alt="gif of webpage" href="https://future-u-dashboard.vercel.app/">
 
 This React application keeps track of key metrics for the Future U Young Adult Team at A/D Works! Team members can view team or personal statistics, which include graphs, trends, and team rank. 
 
