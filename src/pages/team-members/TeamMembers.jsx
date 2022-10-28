@@ -43,7 +43,7 @@ const rows = [
 
 function TeamMembers() {
   return (
-    <div className="teamMembers" style={{ height: 600, width: '100%' }}>
+    <div className="teamMembers" style={{ height: 600 }}>
       <h1 className="teamTitle">WIOA Young Adult Team</h1>
       <DataGrid className="teamTable"
         rows={rows}

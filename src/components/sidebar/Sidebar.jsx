@@ -1,6 +1,5 @@
 import './sidebar.css'
 import React from 'react';
-
 import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
@@ -41,7 +40,7 @@ function Sidebar(){
                         </li>
                     </ul>
 
-                    <h4 className="sidebarTitle">Account</h4>
+                    <h4 className="sidebarTitle">Account <span style={{color: 'grey', fontSize: 14}}>(DISABLED)</span></h4>
                     <ul className="sidebarList">
                         <li className="sidebarItem">
                             <WorkIcon className="sidebarIcon" fontSize="large"/>
@@ -61,7 +60,7 @@ function Sidebar(){
                         </li>
                     </ul>
 
-                    <h4 className="sidebarTitle">Notifications</h4>
+                    <h4 className="sidebarTitle">Notifications <span style={{color: 'grey', fontSize: 14}}>(DISABLED)</span></h4>
                     <ul className="sidebarList">
                         <li className="sidebarItem">
                             <GavelIcon className="sidebarIcon" fontSize="large"/>

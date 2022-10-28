@@ -71,7 +71,7 @@ export const enrollmentData = {
   datasets: [
     {
       label: 'Enrollments',
-      data: [7,10,6,11,13,5,8,7,11,4,6,9],
+      data: [9,10,9,11,13,6,8,10,11,8,16,9],
       backgroundColor: 'rgba(57,80,108, 0.5)',
     },
     {

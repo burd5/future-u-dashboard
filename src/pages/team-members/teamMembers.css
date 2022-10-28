@@ -1,6 +1,5 @@
 .teamMembers{
-    flex: 4;
-    margin: 20px;
+    flex: 3;
 }
 
 .teamTitle{
@@ -19,4 +18,5 @@
 
 .teamTable{
     font-size: 18px !important;
+    margin-left: 10px;
 }

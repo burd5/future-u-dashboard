@@ -70,7 +70,7 @@ export const enrollmentData = {
   datasets: [
     {
       label: 'Enrollments',
-      data: [7,10,6,11,13,5,8,7,11,4,6,9],
+      data: [5,5,7,6,9,5,8,7,10,4,6,9],
       backgroundColor: 'rgba(57,80,108, 0.5)',
     },
     {
@@ -88,7 +88,7 @@ export const spendingData = {
     datasets: [
       {
         label: 'Spending',
-        data: [25234,18738,21000,8400,16899,31002,20032,26456,11245,9765,33987,27435],
+        data: [20234,8738,21000,8400,16899,23002,16032,22456,11245,9765,13987,7435],
         backgroundColor: 'rgba(57,80,108, 0.5)',
       },
       {

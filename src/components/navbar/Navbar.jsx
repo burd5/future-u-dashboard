@@ -1,6 +1,5 @@
 import './navbar.css'
 import React from 'react';
-
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import SettingsIcon from '@mui/icons-material/Settings';
 import {Link} from "react-router-dom"
