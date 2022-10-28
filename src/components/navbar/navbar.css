@@ -46,3 +46,12 @@
     top: 20px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 545px){
+    .pageTitle{
+        font-size: 30px;
+    }
+    .logo{
+        display: none;
+    }
+}
